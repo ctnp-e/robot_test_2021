@@ -18,7 +18,7 @@ import edu.wpi.first.wpilibj2.command.Command;
  */
 public class RobotContainer {
   // The robot's subsystems and commands are defined here...
-  private final lol m_lol = new lol();
+  public static final lol m_lol = new lol();
 
   private final lolcom m_lolcom = new lolcom(m_lol);
 
